@@ -1,0 +1,73 @@
+<DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <header>
+        <h2>世界一甘いお店</h2>
+    </header>
+    <main>
+        <aside>
+            <ul>
+                <li><a href="https://example.com">トップ</a></li>
+                <li><a href="https://example.com">新着情報</a></li>
+                <li><a href="https://example.com">おすすめのスイーツ</a></li>
+                <li><a href="https://example.com">お問い合わせ</a></li>
+            </ul>
+        </aside>
+
+        <form>
+            <table border="4">
+            <tr>
+                <td colspan="2" class="td-title">お名前</td>
+                <td><textarea name="content" rows="1" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td-title">お近くのお店</td>
+                <td><select name="region">
+                    <option value="北海道・東北">北海道・東北</option>
+                    <option value="関東">関東</option>
+                    <option value="中部">中部</option>
+                    <option value="関西">関西</option>
+                    <option value="中国・四国">中国・四国</option>
+                    <option value="九州・沖縄">九州・沖縄></option>
+                </select></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td-title">電話</td>
+                <td><textarea name="number" rows="1" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td-title">電話番号</td>
+                <td><textarea name="phone" rows="1" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td-title">メールアドレス</td>
+                <td><textarea name="address" rows="1" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td-title">お問い合わせ種別</td>
+                <td>
+                    <label><input type="radio" name="status" value="商品について">商品について</label>
+                    <label><input type="radio" name="status" value="従業員について">従業員について</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td-title">お問い合わせ内容</td>
+                <td><textarea name="content" rows="5" cols="30"></textarea></td>
+            
+            </table>
+
+            <div class="form-buttons">
+                <button type="submit">送信</button>
+            </div>
+        </form>
+        
+    </main>
+    <footer>
+    </footer>
+
+</body>
+</html>
