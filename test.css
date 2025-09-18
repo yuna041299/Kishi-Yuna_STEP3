@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: #fff;
+}
+
+/* ヘッダー　部*/
+header{
+    width: 750px;
+    height: 80px;
+    background-color: #FFEF6C;
+    text-align: center;
+    padding: 20px;
+}
+/* サイド部*/
+aside{
+    width: 200px;
+    height: 350px;
+    background-color: aquamarine;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+/*メイン部*/
+main{
+    width: 750px;
+    height: auto;
+    text-align: center;
+    display: flex;
+}
+/* 左側文字部分*/
+.td-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+/*フォーム部分*/
+form{
+    width: 550px;
+    height: 350px;
+    background-color: #FEDCBD ;
+    padding: 30px;
+    position: relative;   
+
+}
+/*フォームボタン部分*/
+.form-buttons{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    position: absolute;
+    right: 50px;
+}
+
+/* ヘッダー部*/
+footer{
+    width: 750px;
+    height: 50px;
+    background-color: #BFC5CA ;
+}
